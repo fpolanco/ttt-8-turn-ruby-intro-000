@@ -42,5 +42,7 @@ def turn(board)
        puts "Please enter 1-9"
        if valid_move?(board,index)==true
          puts board
+     end
+   end
    end
 end
