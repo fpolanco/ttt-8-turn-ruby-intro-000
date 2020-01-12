@@ -39,7 +39,7 @@ def turn(board)
    input=gets
    if input_to_index(input)==valid_move?(board,index)
        if valid_move?(board,index)==true
-         puts board
+         puts (board)
          if valid_move?(board,index)==false
            puts "Please enter 1-9"
      end
